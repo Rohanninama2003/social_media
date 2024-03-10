@@ -11,8 +11,16 @@ const Sidebar = () => {
 	return (
 		<Box
 			height={"100vh"}
-			borderRight={"1px solid"}
-			borderColor={"whiteAlpha.300"}
+			borderRight={"3px solid"}
+			borderColor={"gray.300"}          //bac7c5 "#dc3545"
+			 color={"white"}
+			 borderLeft={"3px solid"}
+			 borderTop={"3px solid"}
+			 borderBottom={"3px solid"}
+			 borderRadius={"xl"}
+			//background={"#bac7cd"}
+			background={"#bac7c4"}
+			fontWeight={"bold"}
 			py={8}
 			position={"sticky"}
 			top={0}

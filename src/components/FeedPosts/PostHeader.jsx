@@ -17,7 +17,7 @@ const PostHeader = ({ post, creatorProfile }) => {
 					<SkeletonCircle size='10' />
 				)}
 
-				<Flex fontSize={12} fontWeight={"bold"} gap='2'>
+				<Flex fontSize={12} fontWeight={"bold"} gap='2' color={"white"}>
 					{creatorProfile ? (
 						<Link to={`/${creatorProfile.username}`}>{creatorProfile.username}</Link>
 					) : (

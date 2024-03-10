@@ -9,7 +9,7 @@ const AuthForm = () => {
 
 	return (
 		<>
-			<Box border={"1px solid gray"} borderRadius={4} padding={5}>
+			<Box border={"1px solid black"} borderRadius={4} padding={5} backdropBlur={"3xl"} color={"black"} textColor={"black"}>
 				<VStack spacing={4}>
 					<Image src='/logo.png' h={24} cursor={"pointer"} alt='Instagram' />
 
@@ -18,7 +18,7 @@ const AuthForm = () => {
 					{/* ---------------- OR -------------- */}
 					<Flex alignItems={"center"} justifyContent={"center"} my={4} gap={1} w={"full"}>
 						<Box flex={2} h={"1px"} bg={"gray.400"} />
-						<Text mx={1} color={"white"}>
+						<Text mx={1} color={"black"}>
 							OR
 						</Text>
 						<Box flex={2} h={"1px"} bg={"gray.400"} />
@@ -28,7 +28,7 @@ const AuthForm = () => {
 				</VStack>
 			</Box>
 
-			<Box border={"1px solid gray"} borderRadius={4} padding={5}>
+			<Box border={"1px solid white"} borderRadius={4} padding={5}>
 				<Flex alignItems={"center"} justifyContent={"center"}>
 					<Box mx={2} fontSize={14}>
 						{isLogin ? "Don't have an account?" : "Already have an account?"}

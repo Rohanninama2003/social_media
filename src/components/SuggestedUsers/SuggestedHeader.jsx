@@ -16,7 +16,7 @@ const SuggestedHeader = () => {
 					<Avatar size={"lg"} src={authUser.profilePicURL} />
 				</Link>
 				<Link to={`${authUser.username}`}>
-					<Text fontSize={12} fontWeight={"bold"}>
+					<Text fontSize={12} fontWeight={"bold"} color={"white"}>
 						{authUser.username}
 					</Text>
 				</Link>
@@ -27,7 +27,7 @@ const SuggestedHeader = () => {
 				_hover={{ background: "transparent" }}
 				fontSize={14}
 				fontWeight={"medium"}
-				color={"blue.400"}
+				color={"gray.400"}
 				onClick={handleLogout}
 				isLoading={isLoggingOut}
 				cursor={"pointer"}

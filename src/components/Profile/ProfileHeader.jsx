@@ -13,9 +13,9 @@ const ProfileHeader = () => {
 	const visitingAnotherProfileAndAuth = authUser && authUser.username !== userProfile.username;
 
 	return (
-		<Flex gap={{ base: 4, sm: 10 }} py={10} direction={{ base: "column", sm: "row" }}>
+		<Flex gap={{ base: 4, sm: 10 }} py={10} direction={{ base: "column", sm: "row" }}  >
 			<AvatarGroup size={{ base: "xl", md: "2xl" }} justifySelf={"center"} alignSelf={"flex-start"} mx={"auto"}>
-				<Avatar src={userProfile.profilePicURL} alt='As a programmer logo' />
+				<Avatar src={userProfile.profilePicURL} alt='rohan' />
 			</AvatarGroup>
 
 			<VStack alignItems={"start"} gap={2} mx={"auto"} flex={1}>
@@ -26,7 +26,7 @@ const ProfileHeader = () => {
 					alignItems={"center"}
 					w={"full"}
 				>
-					<Text fontSize={{ base: "sm", md: "lg" }}>{userProfile.username}</Text>
+					<Text fontSize={{ base: "sm", md: "lg" }}  fontWeight={"bold"} color={"whiteAlpha.900"}>{userProfile.username}</Text>
 					{visitingOwnProfileAndAuth && (
 						<Flex gap={4} alignItems={"center"} justifyContent={"center"}>
 							<Button
