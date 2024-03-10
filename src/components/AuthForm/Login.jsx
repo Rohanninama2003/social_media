@@ -11,7 +11,9 @@ const Login = () => {
 	return (
 		<>
 			<Input
-			    color={"black"}
+			   color={"black"}
+			   borderColor="black" 
+			   _placeholder={{ color: 'gray.500' }}
 				placeholder='Email'
 				fontSize={14}
 				type='email'
@@ -21,6 +23,9 @@ const Login = () => {
 				
 			/>
 			<Input
+			 color={"black"}
+			 borderColor="black" 
+			 _placeholder={{ color: 'gray.500' }} 
 				placeholder='Password'
 				fontSize={14}
 				size={"sm"}

@@ -16,6 +16,9 @@ const Signup = () => {
 	return (
 		<>
 			<Input
+			 color={"black"}
+			 borderColor="black" 
+			 _placeholder={{ color: 'gray.500' }}
 				placeholder='Email'
 				fontSize={14}
 				type='email'
@@ -24,6 +27,9 @@ const Signup = () => {
 				onChange={(e) => setInputs({ ...inputs, email: e.target.value })}
 			/>
 			<Input
+			 color={"black"}
+			 borderColor="black" 
+			 _placeholder={{ color: 'gray.500' }}
 				placeholder='Username'
 				fontSize={14}
 				type='text'
@@ -32,6 +38,9 @@ const Signup = () => {
 				onChange={(e) => setInputs({ ...inputs, username: e.target.value })}
 			/>
 			<Input
+			 color={"black"}
+			 borderColor="black" 
+			 _placeholder={{ color: 'gray.500' }}
 				placeholder='Full Name'
 				fontSize={14}
 				type='text'
@@ -41,6 +50,9 @@ const Signup = () => {
 			/>
 			<InputGroup>
 				<Input
+				 color={"black"}
+				 borderColor="black" 
+				 _placeholder={{ color: 'gray.500' }}
 					placeholder='Password'
 					fontSize={14}
 					type={showPassword ? "text" : "password"}
