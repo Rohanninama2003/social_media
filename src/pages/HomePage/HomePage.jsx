@@ -17,7 +17,7 @@ const HomePage = () => {
             
             display={{ base: "none", lg: "block" }}
             
-			    background={"#bac7c4"}
+			    background={"#ea7070"}
 
             mb={1}
             borderRadius={"xl"}
