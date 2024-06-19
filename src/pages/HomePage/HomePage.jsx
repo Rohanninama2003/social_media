@@ -17,7 +17,6 @@ const HomePage = () => {
             
             display={{ base: "none", lg: "block" }}
             
-			    background={"#ea7070"}
 
             mb={1}
             borderRadius={"xl"}
@@ -26,7 +25,7 @@ const HomePage = () => {
             mr={20}
             maxW={"300px"}
           >
-            {/* Content for the first box */}
+            
             <SuggestedUsers />
           </Box>
         </Flex>
