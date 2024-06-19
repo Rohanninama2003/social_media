@@ -11,7 +11,7 @@ const Sidebar = () => {
 	return (
 		<Box
 			height={"100vh"}
-			borderRight={"3px solid"}
+			borderRight={"1px solid"}
 			borderColor={"gray.300"}          //bac7c5 "#dc3545"
 			 color={"white"}
 			
