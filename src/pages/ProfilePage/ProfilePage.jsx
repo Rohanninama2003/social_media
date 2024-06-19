@@ -14,7 +14,7 @@ const ProfilePage = () => {
 	if (userNotFound) return <UserNotFound />;
 
 	return (
-		<Box background={"#bac7c4"} border={"1px solid white"}>
+		<Box >
 		<Container maxW='container.lg' py={5} >
 		<Flex py={10} px={4} pl={{ base: 4, md: 10 }} w={"full"} mx={"auto"} flexDirection={"column"}>
 			{!isLoading && userProfile && <ProfileHeader />}
