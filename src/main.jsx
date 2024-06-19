@@ -7,16 +7,15 @@ import { extendTheme } from '@chakra-ui/react';
 import { mode } from '@chakra-ui/theme-tools';
 import { BrowserRouter as Router } from 'react-router-dom';
 
-// Define your Chakra UI theme
 const theme = extendTheme({
   config: {
-    initialColorMode: 'light', // or 'dark' depending on your preference
+    initialColorMode: 'dark',
     useSystemColorMode: false,
   },
   styles: {
     global: (props) => ({
       body: {
-        bg: 'white', // Set the background color directly to 
+        bg: 'black', 
         color: mode('gray.800', 'whiteAlpha.900')(props),
       },
     }),
